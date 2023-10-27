@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://kodilla-module-23.potrykuspatrykk.repl.co/v1/tasks';
-  const trelloApiRoot = 'https://api.trello.com/1';
+  const apiRoot = 'https://project-kodilla-course-module-18-37.potrykuspatrykk.repl.co/v1/tasks';
+  const trelloApiRoot = 'https://api.trello.com/1?key=9f68fe5d307b336faaace13e1060fb0a&token=ATTAdc1b1ee97388209f536af60c5b55f0ea1f61ab9256b8cffb90f885a1496ddd07B687B738';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
