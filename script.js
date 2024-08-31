@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://github.com/Patryk241194/Project-kodilla-course-module-18-37/v1/tasks';
-  const trelloApiRoot = 'https://github.com/Patryk241194/Project-kodilla-course-module-18-37/v1/trello';
+  const apiRoot = 'https://e2b60776-d105-4895-bab5-d4586cd4294a-00-2swqz1i3qmap8.kirk.replit.dev:8080/v1/tasks';
+  const trelloApiRoot = 'https://e2b60776-d105-4895-bab5-d4586cd4294a-00-2swqz1i3qmap8.kirk.replit.dev:8080/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
